@@ -21,6 +21,9 @@ Font is the most important concept in text layout. The way we manipulate fonts i
 
 Also HarfBuzz is a full featured cross-platform layout engine, on Linux/Unix, the fonts manipulation part is largely dependent on [fontconfig][fontconfig] and [FreeType][freetype], thus, it makes more sense to compare Core Text and DirectWrite with them. Of course we will also include the interface to HarfBuzz.
 
+[fontconfig]: http://fontconfig.org
+[freetype]: http://freetype.org
+
 ### Font Matching
 
 #### Core Text
