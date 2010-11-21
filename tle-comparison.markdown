@@ -19,16 +19,20 @@ Fonts
 
 Font is the most important concept in text layout. The way we manipulate fonts is vital to a good text layout engine.
 
-Also HarfBuzz is a full featured cross-platform layout engine, on Linux/Unix, the fonts manipulation part is largely dependent on [fontconfig][fontconfig] and [FreeType][freetype], thus, it makes more sense to compare Core Text and DirectWrite with them. Of course we will also include the interface to HarfBuzz.
+Although HarfBuzz is a full featured cross-platform layout engine, on Linux/Unix, the fonts manipulation part is largely dependent on [fontconfig][fontconfig] and [FreeType][freetype], thus, it makes more sense to compare Core Text and DirectWrite with them. Of course we will also include the interface to HarfBuzz.
 
 [fontconfig]: http://fontconfig.org
 [freetype]: http://freetype.org
 
 ### Font Matching
 
+Font matching is process of find the font you want to use, in this phase you don't want to create the font yet, just want to see if the best match exist. A good font matching system should be able to find the closest match possible, yet the result should always conforms to other places (menu bar, text fields) in the same system.
+
 #### Core Text
 
-In Core Text, font matching is divided in two parts: descriptor construction and font creation.
+In Core Text, [`CTFontDescriptor`][ctfd] is responsible for font matching.
+
+[ctfd]: http://developer.apple.com/library/mac/#documentation/Carbon/Reference/CTFontDescriptorRef/Reference/reference.html
 
 ### Font Fallback
 
