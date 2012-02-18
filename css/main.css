@@ -3,6 +3,8 @@ body {
     color: #555;
     font-size: 150%;
     font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Hiragino Sans GB", sans-serif;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
 }
 
 div.container {
