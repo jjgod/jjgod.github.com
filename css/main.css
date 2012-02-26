@@ -1,22 +1,8 @@
-@font-face {
-  font-family: 'Quadraat';
-  src: url('/fonts/QuadraatWebPro.woff') format('woff'); 
-}   
-@font-face {
-  font-family: 'Quadraat';
-  font-style: italic;
-  src: url('/fonts/QuadraatWebPro-Ita.woff') format('woff'); 
-}   
-@font-face {
-  font-family: 'Quadraat';
-  font-weight: bold;
-  src: url('/fonts/QuadraatWebPro-Bold.woff') format('woff'); 
-}
 body {
     background-color: #f6f6f6;
     color: #555;
     font-size: 150%;
-    font-family: "Quadraat", "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Hiragino Sans GB", sans-serif;
+    font-family: "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Hiragino Sans GB", sans-serif;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
 }
@@ -36,7 +22,7 @@ p {
 h1, h2, h3 {
     color: #333;
     text-shadow: rgba(255, 255, 255, 0.746094) 0px 1px 1px;
-    font-family: "Quadraat", "Myriad Pro", "Lucida Grande", "Hiragino Sans GB", sans-serif;
+    font-family: "Myriad Pro", "Lucida Grande", "Hiragino Sans GB", sans-serif;
 }
 
 h1 {
