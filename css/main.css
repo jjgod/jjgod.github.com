@@ -2,7 +2,7 @@ body {
     background-color: #f6f6f6;
     color: #555;
     font-size: 100%;
-    font-family: "Sentinel A", "Sentinel B" "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Hiragino Sans GB", sans-serif;
+    font-family: Merriweather, "ff-tisa-web-pro-1", "ff-tisa-web-pro-2", "Hiragino Sans GB", sans-serif;
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
 }
